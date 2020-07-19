@@ -1,0 +1,253 @@
+/*el navbar principal*/
+.navbar-rata {
+    background: linear-gradient(270deg,#1976d2,#2196f3);
+    padding: .8rem;
+}
+
+/* el padding del div principal del navbar */
+
+.px {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* el padding del subnavbar */
+
+.portada-navbar {
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+}
+
+/* el logo de la rata*/
+.logo-rata {
+    height: 38px;
+    margin: 0px 16px 0px 0px;
+    float: left;
+}
+
+/*boton de ofertas*/
+.button-ofertas {
+    background-color: rgba(0,0,0,.3);
+    border-radius: 50rem;
+    color: #fff!important;
+    font: 16px Roboto, sans-serif;
+    padding: 8px 16px;
+    border-color: transparent;
+}
+
+/*boton de cupones*/
+.button-cupones {
+    background-color: hsla(0,0%,100%,.1);
+    border-radius: 50rem;
+    color: #fff!important;
+    font: 16px Roboto, sans-serif;
+    padding: 8px 16px;
+    border-color: transparent;
+}
+
+/*boton de blog*/
+.button-blog {
+    background-color: hsla(0,0%,100%,.1);
+    border-radius: 50rem;
+    color: #fff!important;
+    font: 16px Roboto, sans-serif;
+    padding: 8px 16px;
+    border-color: transparent;
+}
+
+/*boton de contacto*/
+.button-contact {
+    background-color: hsla(0,0%,100%,.1);
+    border-radius: 50rem;
+    color: #fff!important;
+    font: 16px Roboto, sans-serif;
+    font-weight: 300;
+    padding: 8px 16px;
+    border-color: transparent;
+}
+
+/*icono de sol*/
+.icono-nav {
+    background-color: hsla(0,0%,100%,.1);
+    border-radius: 50rem;
+    color: #fff!important;
+    font: 16px Roboto, sans-serif;
+    padding: 8px 16px;
+    border-color: transparent;
+    
+}
+
+/*navbar secundario*/
+.sub-navbar {
+    background-color: #1976D2;
+}
+
+/* iconos del sub-navbar */
+.icono-nav2 {
+    color: #fff!important;
+    font: 16px Roboto, sans-serif;
+    padding: 0px 16px;
+    
+}
+
+/* mensaje de instagram */
+.message {
+    color: #fff!important;
+    font: 16px Roboto, sans-serif;
+    padding: 0px 16px;
+    text-align: right;
+}
+
+.space-top {
+    margin-top: 20px;
+}
+
+/* Titulos */
+h1 {
+    color: #212529;
+    font: 24px Roboto, sans-serif;
+    margin: 0px 0px 8px;
+    font-weight: bold;
+}
+   
+
+.card-text {
+    color: #6c757d;
+    font: 16px Roboto, sans-serif;
+    margin: 0px 0px 8px;
+    font-weight: normal;
+}
+
+.paddings {
+    margin-bottom: 1rem;
+}
+
+/* caja de productos */
+.card-img-top {
+    width: 125px;
+    height: 150px;
+    overflow: hidden;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin: auto;
+}
+
+.card-body {
+    height: 135px;
+}
+/* mensaje de span */
+
+.style-type {
+    color: #6c757d;
+    font: 12.8px Roboto, sans-serif;
+    font-weight: lighter;
+}
+
+/* contenido de productos-footer */
+
+.card {
+    cursor: pointer;
+    transition-duration: .2s;
+}
+
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,.1), 0 10px 10px rgba(0,0,0,.05);
+}
+.card-footer{
+    display: flex !important;
+    padding: .75rem 1.25rem;
+    align-items: center !important;
+}
+
+.producto-text {
+    text-align: left;
+}
+
+.icon {
+    margin-left: auto !important;
+}
+
+/* Footer */
+.footer-rata {
+    background-color: #2196f3;
+    color: #fff;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.padding-footer {
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+
+.title-rata {
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.h4-responsive {
+    font-weight: 300; 
+    font-family: Roboto, sans-serif;  
+}
+
+.Text-footer {
+    font-weight: 700;  
+    color: #fff;
+    margin-bottom: 1rem;  
+}
+
+.ul-order {
+    padding-left: 0;
+    list-style: none;
+}
+
+.li-order {
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+.flex-b {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bot-top {
+    padding-bottom: 1rem;
+}
+
+.position_img {
+    text-align: center;
+}
+
+/**
+    Media Query
+*/
+
+@media only screen and (max-width: 600px) {
+    .card-title{
+        font-size: 1.0rem;
+    }
+    .cajon {
+        text-align: center;
+        padding: 15px;
+    }
+    .cajita {
+        
+        padding: 0 0 0 21px;
+    }
+    .card-img-top {
+        width: 90px;
+        height: 100px;
+    }
+    .card-body {
+        height: 110px;
+    }
+    .position_img {
+        padding: 5px 0 0 15px;
+    }
+
+    .icono-nav2 {
+        margin-bottom: 1rem;
+    }
+
