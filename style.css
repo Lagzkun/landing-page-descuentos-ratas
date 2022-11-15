@@ -1,3 +1,13 @@
+html { 
+    scroll-behavior: smooth;
+}
+
+/*el modo oscuro */
+.color_dark {
+    background-color: black;
+    transition: 3s;
+}
+
 /*el navbar principal*/
 .navbar-rata {
     background: linear-gradient(270deg,#1976d2,#2196f3);
@@ -74,7 +84,11 @@
     font: 16px Roboto, sans-serif;
     padding: 8px 16px;
     border-color: transparent;
-    
+
+}
+
+.icono-nav::after{
+    background-color: #212529;
 }
 
 /*navbar secundario*/
@@ -87,7 +101,7 @@
     color: #fff!important;
     font: 16px Roboto, sans-serif;
     padding: 0px 16px;
-    
+
 }
 
 /* mensaje de instagram */
@@ -99,7 +113,7 @@
 }
 
 .space-top {
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 /* Titulos */
@@ -220,7 +234,7 @@ h1 {
     text-align: center;
 }
 
-/**
+/*
     Media Query
 */
 
@@ -251,3 +265,4 @@ h1 {
         margin-bottom: 1rem;
     }
 
+}
